@@ -1,0 +1,43 @@
++++
+
+title = "Brion Gysin Let The Mice In"
+authors = ['Brion Gysin', 'William S. Burroughs', 'Ian Sommerville']
+date = 1970-01-01
+publication_types = ['5']
+abstract = "West Glover, England: Something Else Press, Inc., 1973. First. Dust jacket slightly worn and rubbed in places."
+tags = ['schottlaender/4.0/G31', 'maynard-and-miles/A22a']
+featured = false
+
+[ld]
+
+"@id" = "https://wsb-bibliography.github.io/wsb-catalog-v2/brion-gysin-let-the-mice-in-1"
+"@type" = ["http://id.loc.gov/ontologies/bibframe/Item", "http://id.loc.gov/ontologies/bibframe/Text"]
+itemOf = "https://wsburroughs.link/anything-but-routine/4.0/instance/instance"
+
+[ld."@context"]
+    [ld."@context".itemOf]
+    "@id" = "http://id.loc.gov/ontologies/bibframe/itemOf"
+    "@type" = "@id"
+    [ld."@context".label]
+    "@id" = "http://www.w3.org/2000/01/rdf-schema#label"
+    [ld."@context".role]
+    "@id" = "http://id.loc.gov/ontologies/bibframe/role"
+    [ld."@context".value]
+    "@id" = "http://www.w3.org/1999/02/22-rdf-syntax-ns#value"
+    [ld."@context".heldBy]
+    "@id" = "http://id.loc.gov/ontologies/bibframe/heldBy"
+    "@type" = "@id"
+    [ld."@context".note]
+    "@id" = "http://id.loc.gov/ontologies/bibframe/note"
+    "@type" = "@id"
+
+[ld.heldBy]
+"@type" = ["http://id.loc.gov/ontologies/bibframe/Agent", "http://id.loc.gov/ontologies/bibframe/Person"]
+label = "Bradley P. Allen"
+role = "collector"
+
+[ld.note]
+"@type" = ["http://id.loc.gov/ontologies/bibframe/Note", "http://id.loc.gov/ontologies/bibframe/DescriptiveNote"]
+value = "West Glover, England: Something Else Press, Inc., 1973. First. Dust jacket slightly worn and rubbed in places."
+
++++
